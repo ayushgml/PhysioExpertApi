@@ -31,4 +31,4 @@ def getresult():
 
 if __name__ == '__main__':
     finalized_model = pickle.load(open('model.pkl', 'rb'))
-    app.run(debug=True)
+    app.run()
